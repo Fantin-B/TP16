@@ -23,6 +23,7 @@ class  Window3(QWidget):
 
         self.setLayout(self.layout)
 
+
     def nbClick(self):
         self.nb +=1
         self.button2.setText("clic "+ str(self.nb))
